@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id = timer>
+        TIMER:
+    </div>
+
+    <br>
+
+    <div class = "container">
+        <div id = "question-container" class = "hide">
+          <div id = "question">Question</div>
+          <div id = "answer-buttons" class = "btn-grid">
+              <button class = "btn">Answer1</button>
+              <button class = "btn">Answer2</button>
+              <button class = "btn">Answer3</button>
+              <button class = "btn">Answer4</button>
+          </div>
+        </div>
+        <div class = "control">
+            <button id = "start-btn" class = "start-btn btn">START!</button>
+            <button id = "next-btn" class = "next-btn btn hide">Next</button>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
